@@ -1,31 +1,32 @@
 :root {
-  --color-one: #015249;
-  --color-two: #57bc90;
-  --color-three: #77c9d4;
-  --color-four: #a5a5af;
+  --color-text: #081c15;
+  --color-background: #d8f3dc;
+  --color-primary: #93d5b2;
+  --color-secondary: #89c2d9;
+  --color-accent: #e5989b;
 }
 
 html,
 body {
-  background-color: var(--color-four);
+  background-color: var(--color-background);
   height: 100%;
   font-family: "Assistant", sans-serif;
   overflow-x: hidden;
-  color: var(--color-one);
+  color: var(--color-text);
 }
 
 #title,
 #references {
   padding-left: 40px;
-  background-color: var(--color-two);
+  background-color: var(--color-primary);
 }
 
 #title {
-  border-bottom: solid 2px var(--color-one);
+  border-bottom: solid 1px var(--color-accent);
 }
 
 #references {
-  border-top: solid 2px var(--color-one);
+  border-top: solid 1px var(--color-accent);
 }
 
 h3,
@@ -47,8 +48,8 @@ h3 {
 
 .text-box {
   border-radius: 25px;
-  background: var(--color-three);
+  background: var(--color-secondary);
   padding: 15px;
   margin: 15px;
-  border: solid 2px var(--color-two);
+  border: solid 1px var(--color-accent);
 }
