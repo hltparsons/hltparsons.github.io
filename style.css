@@ -27,6 +27,7 @@ body {
 
 #references {
   border-top: solid 1px var(--color-accent);
+  padding-top: 15px;
 }
 
 h3,
@@ -47,7 +48,7 @@ h3 {
 }
 
 .text-box {
-  border-radius: 25px;
+  border-radius: 5px;
   background: var(--color-secondary);
   padding: 15px;
   margin: 15px;
