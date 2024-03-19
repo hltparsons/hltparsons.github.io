@@ -1,0 +1,25 @@
+html,
+body {
+  background-color: beige;
+  height: 100%;
+}
+
+#title {
+  background-color: aliceblue;
+}
+
+#references {
+  background-color: aliceblue;
+  height: 100%;
+}
+
+section {
+  padding-top: 10px;
+}
+
+.text-box {
+  border-radius: 25px;
+  background: #73ad21;
+  padding: 15px;
+  margin: 20px;
+}
