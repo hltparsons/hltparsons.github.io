@@ -25,6 +25,11 @@ body {
   border-bottom: solid 1px var(--color-accent);
 }
 
+#vision {
+  display: flex;
+  align-items: center;
+}
+
 #references {
   border-top: solid 1px var(--color-accent);
   padding-top: 15px;
