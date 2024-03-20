@@ -1,61 +1,88 @@
 :root {
-  --color-text: #081c15;
-  --color-background: #d8f3dc;
-  --color-primary: #93d5b2;
-  --color-secondary: #89c2d9;
-  --color-accent: #e5989b;
+    --color-text: #081c15;
+    --color-background: #d8f3dc;
+    --color-primary: #93d5b2;
+    --color-secondary: #89c2d9;
+    --color-accent: #e5989b;
+
+    --text-box-size: 25px
 }
 
 html,
 body {
-  background-color: var(--color-background);
-  height: 100%;
-  font-family: "Assistant", sans-serif;
-  overflow-x: hidden;
-  color: var(--color-text);
-}
-
-#title,
-#references {
-  padding-left: 40px;
-  background-color: var(--color-primary);
-}
-
-#title {
-  border-bottom: solid 1px var(--color-accent);
-}
-
-#vision {
-  display: flex;
-  align-items: center;
-}
-
-#references {
-  border-top: solid 1px var(--color-accent);
-  padding-top: 15px;
+    background-color: var(--color-background);
+    font-family: "Assistant", sans-serif;
+    overflow-x: hidden;
+    color: var(--color-text);
 }
 
 h3,
 h2,
 h1 {
-  font-family: "DM Serif Text", sans-serif;
+    font-family: "DM Serif Text", sans-serif;
 }
 
 h1 {
-  font-size: 80px;
+    font-size: 80px;
 }
+
 h2 {
-  font-size: 65px;
+    font-size: 65px;
 }
 
 h3 {
-  font-variant: small-caps;
+    font-size: 40px;
+    font-variant: small-caps;
+}
+
+#header,
+#footer {
+    width: 100%;
+    /* padding-left: 40px; */
+    background-color: var(--color-primary);
+}
+
+#header {
+    border-bottom: solid 1px var(--color-accent);
+}
+
+#title {
+    text-align: center;
+}
+
+#vision {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#footer {
+    border-top: solid 1px var(--color-accent);
+}
+
+#references {
+    margin-left: 30px;
+}
+
+#references h3 {
+    font-size: 30px;
+}
+
+#references li {
+    list-style: none;
+    margin: 10px;
 }
 
 .text-box {
-  border-radius: 5px;
-  background: var(--color-secondary);
-  padding: 15px;
-  margin: 15px;
-  border: solid 1px var(--color-accent);
+    border-radius: 5px;
+    background: var(--color-secondary);
+    padding: 15px;
+    margin: 15px;
+    border: solid 1px var(--color-accent);
+    font-size: var(--text-box-size);
+}
+
+li {
+    margin-left: 20px;
 }
