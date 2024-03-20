@@ -5,7 +5,7 @@
     --color-secondary: #89c2d9;
     --color-accent: #e5989b;
 
-    --text-box-size: 22px
+    --text-box-size: 20px
 }
 
 html,
@@ -23,15 +23,15 @@ h1 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 65px;
+    font-size: 57px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-variant: small-caps;
 }
 
@@ -53,8 +53,8 @@ h3 {
 #vision {
     display: flex;
     align-items: center;
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px;
+    font-size: 22px;
 }
 
 #footer {
@@ -62,7 +62,7 @@ h3 {
 }
 
 #references {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 #references h3 {
